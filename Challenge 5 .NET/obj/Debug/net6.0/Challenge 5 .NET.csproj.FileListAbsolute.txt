@@ -1,0 +1,38 @@
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\Challenge 5 .NET\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\Challenge 5 .NET\bin\Debug\net6.0\appsettings.json
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\Challenge 5 .NET\bin\Debug\net6.0\Challenge 5 .NET.exe
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\Challenge 5 .NET\bin\Debug\net6.0\Challenge 5 .NET.deps.json
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\Challenge 5 .NET\bin\Debug\net6.0\Challenge 5 .NET.runtimeconfig.json
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\Challenge 5 .NET\bin\Debug\net6.0\Challenge 5 .NET.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\Challenge 5 .NET\bin\Debug\net6.0\Challenge 5 .NET.pdb
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\Challenge 5 .NET\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\Challenge 5 .NET\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\Challenge 5 .NET\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\Challenge 5 .NET\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\Challenge 5 .NET\obj\Debug\net6.0\Challenge 5 .NET.csproj.AssemblyReference.cache
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\Challenge 5 .NET\obj\Debug\net6.0\Challenge 5 .NET.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\Challenge 5 .NET\obj\Debug\net6.0\Challenge 5 .NET.AssemblyInfoInputs.cache
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\Challenge 5 .NET\obj\Debug\net6.0\Challenge 5 .NET.AssemblyInfo.cs
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\Challenge 5 .NET\obj\Debug\net6.0\Challenge 5 .NET.csproj.CoreCompileInputs.cache
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\Challenge 5 .NET\obj\Debug\net6.0\Challenge 5 .NET.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\Challenge 5 .NET\obj\Debug\net6.0\Challenge 5 .NET.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\Challenge 5 .NET\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\Challenge 5 .NET\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\Challenge 5 .NET\obj\Debug\net6.0\scopedcss\bundle\Challenge 5 .NET.styles.css
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\Challenge 5 .NET\obj\Debug\net6.0\Challenge 5 .NET.csproj.CopyComplete
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\Challenge 5 .NET\obj\Debug\net6.0\Challenge 5 .NET.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\Challenge 5 .NET\obj\Debug\net6.0\refint\Challenge 5 .NET.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\Challenge 5 .NET\obj\Debug\net6.0\Challenge 5 .NET.pdb
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\Challenge 5 .NET\obj\Debug\net6.0\Challenge 5 .NET.genruntimeconfig.cache
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\Challenge 5 .NET\obj\Debug\net6.0\ref\Challenge 5 .NET.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\Challenge 5 .NET\bin\Debug\net6.0\Humanizer.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\Challenge 5 .NET\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\Challenge 5 .NET\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\Challenge 5 .NET\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\Challenge 5 .NET\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\Challenge 5 .NET\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\Challenge 5 .NET\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\Challenge 5 .NET\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\Challenge 5 .NET\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\Challenge 5 .NET\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\Challenge 5 .NET\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
