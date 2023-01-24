@@ -16,44 +16,49 @@ namespace Challenge_5_.NET.Service.Handler {
         public IEnumerable<Video> ConsultaVideos() {
             return _videoDao.BuscarTodos();
         }
+        public IEnumerable<Video> ConsultaVideosPorCategoria(int categoriaId) {
+            return _videoDao.BuscarTodosPorCategoria(categoriaId);
+        }
+        public IEnumerable<Video> ConsultaVideoPorBusca(string? search) {
+            return _videoDao.BuscarTodosPorParamentro(search);
+        }
         public Video ConsultaVideoPorId(int id) {
             return _videoDao.BuscarPorId(id);
         }
 
-        public void UploadVideo(VideoDto video) {
-            _videoDao.Incluir(video);
+        public void UploadVideo(VideoDto dto) {
+            _videoDao.Incluir(dto);
         }
 
-        public void UpdateVideo(UpdateVideoDto video) {
-            _videoDao.Alterar(video);
+        public void UpdateVideo(VideoDto dto, int id) {
+            _videoDao.Alterar(dto, id);
         }
 
         public void DeleteVideo(int id) {
             _videoDao.Excluir(id);
         }
+        public void CreateVideo(VideoDto video) {
+            _videoDao.Incluir(video);
+        }
 
         public IEnumerable<Categoria> ConsultaCategorias() {
-            throw new NotImplementedException();
+            return _categoriaDao.BuscarTodos();
         }
 
         public Categoria ConsultaCategoriaPorId(int id) {
-            throw new NotImplementedException();
-        }
-
-        public void CreateVideo(VideoDto video) {
-            throw new NotImplementedException();
+            return _categoriaDao.BuscarPorId(id);
         }
 
         public void CreateCategoria(CategoriaDto categoria) {
-            throw new NotImplementedException();
+            _categoriaDao.Incluir(categoria);
         }
 
-        public void UpdateCategoria(UpdateCategoriaDto categoria) {
-            throw new NotImplementedException();
+        public void UpdateCategoria(CategoriaDto dto, int id){
+            _categoriaDao.Alterar(dto, id);
         }
 
         public void DeleteCategoria(int id) {
-            throw new NotImplementedException();
+            _categoriaDao.Excluir(id);
         }
     }
 }

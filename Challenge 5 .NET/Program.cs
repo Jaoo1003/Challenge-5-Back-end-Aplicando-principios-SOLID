@@ -19,6 +19,7 @@ builder.Services.AddDbContext<AppDbContext>(opt => opt.UseMySql(builder.Configur
 
 builder.Services.AddTransient<IVideoDao, VideoDaoComEfCore>();
 builder.Services.AddTransient<IAdminService, DefaultAdminService>();
+builder.Services.AddTransient<ICategoriaDao, CategoriaDaoComEfCore>();
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 var app = builder.Build();

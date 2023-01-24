@@ -2,9 +2,9 @@
 
 namespace Challenge_5_.NET.Data.Dtos.Categoria {
     public class CategoriaDto {
-        [Required]
+        [Required(ErrorMessage = "O Campo Titulo é obrigatório!")]
         public string Titulo { get; set; }
-        [Required]
+        [Required(ErrorMessage = "O Campo Cor é obrigatório!")]
         public string Cor { get; set; }
     }
 }

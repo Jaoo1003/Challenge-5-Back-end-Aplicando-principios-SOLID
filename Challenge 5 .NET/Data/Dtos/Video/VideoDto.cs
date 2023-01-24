@@ -8,5 +8,6 @@ namespace Challenge_5_.NET.Data.Dtos.Video {
         public string Descricao { get; set; }
         [Required]
         public string Url { get; set; }
+        public int? CategoriaId { get; set; }
     }
 }

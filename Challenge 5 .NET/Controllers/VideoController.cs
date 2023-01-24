@@ -27,6 +27,18 @@ namespace Challenge_5_.NET.Controllers {
             return Ok(video);
         }
 
+        [HttpGet("categoria/{id}")]
+        public IActionResult VideosPorCategoria(int id) {
+            var videos = _adminService.ConsultaVideosPorCategoria(id);
+            return Ok(videos);
+        }
+
+        [HttpGet("busca")]
+        public IActionResult VideosPorBusca([FromQuery]string? search = null) {
+            var videos = _adminService.ConsultaVideoPorBusca(search);
+            return Ok(videos);
+        }
+
         [HttpPost]
         public IActionResult CreateVideo(VideoDto video) {
             _adminService.CreateVideo(video);

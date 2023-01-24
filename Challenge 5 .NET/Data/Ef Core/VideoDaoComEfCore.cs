@@ -23,7 +23,14 @@ namespace Challenge_5_.NET.Data.Ef_Core {
         }
 
         public IEnumerable<Video> BuscarTodos() {
-            return _context.Videos;
+            return _context.Videos.ToList();
+        }
+        public IEnumerable<Video> BuscarTodosPorCategoria(int categoriaId) {
+            return _context.Videos.Where(video => video.CategoriaId == categoriaId);
+        }
+
+        public IEnumerable<Video> BuscarTodosPorParamentro(string? search) {
+            return _context.Videos.Where(video => video.Titulo.Contains(search));
         }
 
         public void Excluir(int id) {
@@ -38,6 +45,9 @@ namespace Challenge_5_.NET.Data.Ef_Core {
 
         public void Incluir(VideoDto video) {
             Video file = _mapper.Map<Video>(video);
+            if (file.CategoriaId == null) {
+                file.CategoriaId = 1;
+            }
             _context.Videos.Add(file);
             _context.SaveChanges();
         }

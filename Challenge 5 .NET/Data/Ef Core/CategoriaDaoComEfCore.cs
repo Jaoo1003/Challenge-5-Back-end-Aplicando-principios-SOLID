@@ -1,6 +1,5 @@
 ﻿using AutoMapper;
 using Challenge_5_.NET.Data.Dtos.Categoria;
-using Challenge_5_.NET.Data.Dtos.Video;
 using Challenge_5_.NET.Models;
 
 namespace Challenge_5_.NET.Data.Ef_Core {
