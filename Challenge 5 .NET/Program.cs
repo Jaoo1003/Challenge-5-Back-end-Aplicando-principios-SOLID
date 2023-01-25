@@ -1,7 +1,5 @@
-using AutoMapper;
 using Challenge_5_.NET.Data;
 using Challenge_5_.NET.Data.Ef_Core;
-using Challenge_5_.NET.Profiles;
 using Challenge_5_.NET.Service;
 using Challenge_5_.NET.Service.Handler;
 using Microsoft.EntityFrameworkCore;

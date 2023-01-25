@@ -34,7 +34,7 @@ namespace Challenge_5_.NET.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Categorias");
+                    b.ToTable("Categorias", (string)null);
                 });
 
             modelBuilder.Entity("Challenge_5_.NET.Models.Video", b =>
@@ -62,7 +62,7 @@ namespace Challenge_5_.NET.Migrations
 
                     b.HasIndex("CategoriaId");
 
-                    b.ToTable("Videos");
+                    b.ToTable("Videos", (string)null);
                 });
 
             modelBuilder.Entity("Challenge_5_.NET.Models.Video", b =>
