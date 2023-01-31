@@ -4,11 +4,11 @@ using UsuarioVideoAPI.Data.Dtos;
 using UsuarioVideoAPI.Data.Requests;
 
 namespace UsuarioVideoAPI.Service.Handler {
-    public class DefaultAdminService : IAdminUserService {
+    public class DefaultAdminUserService : IAdminUserService {
         private IUsuario _usuario;
         private ILogin _login;
 
-        public DefaultAdminService(IUsuario usuario, ILogin login) {
+        public DefaultAdminUserService(IUsuario usuario, ILogin login) {
             _usuario = usuario;
             _login = login;
         }

@@ -2,7 +2,10 @@ using Challenge_5_.NET.Data;
 using Challenge_5_.NET.Data.Ef_Core;
 using Challenge_5_.NET.Service;
 using Challenge_5_.NET.Service.Handler;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,6 +23,24 @@ builder.Services.AddTransient<IAdminService, DefaultAdminService>();
 builder.Services.AddTransient<ICategoriaDao, CategoriaDaoComEfCore>();
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
+builder.Services.AddAuthentication(auth => {
+    auth.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    auth.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+})
+.AddJwtBearer(token => {
+    token.RequireHttpsMetadata = false;
+    token.SaveToken = true;
+    token.TokenValidationParameters = new TokenValidationParameters {
+        ValidateIssuerSigningKey = true,
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("@#$Terg354yhy35h87564ae5h%@$%u46j24hqerhqe5u2457656%&@$U246j54q8gsieh426u24JEthn246*@¨&6usgfmn,ryi.jqE%724%")),
+        ValidateIssuer = false,
+        ValidateAudience = false,
+        ClockSkew = TimeSpan.Zero
+    };
+
+});
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -31,6 +52,8 @@ if (app.Environment.IsDevelopment()) {
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+
+app.UseAuthentication();
 
 app.MapControllers();
 

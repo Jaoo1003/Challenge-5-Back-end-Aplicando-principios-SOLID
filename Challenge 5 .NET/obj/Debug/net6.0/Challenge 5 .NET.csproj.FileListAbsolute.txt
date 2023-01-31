@@ -36,3 +36,14 @@ C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\Challenge 5 
 C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\Challenge 5 .NET\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
 C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\Challenge 5 .NET\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\Challenge 5 .NET\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\Challenge 5 .NET\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\Challenge 5 .NET\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\Challenge 5 .NET\bin\Debug\net6.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\Challenge 5 .NET\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\Challenge 5 .NET\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\Challenge 5 .NET\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\Challenge 5 .NET\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\Challenge 5 .NET\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\Challenge 5 .NET\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\Challenge 5 .NET\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\Challenge 5 .NET\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll

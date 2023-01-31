@@ -32,12 +32,19 @@ namespace UsuarioVideoAPI.Data.Ef_Core {
             Task<IdentityResult> result = _userManager.CreateAsync(identityUser, dto.Password);
 
             if (result.Result.Succeeded) {
-                _userManager.AddToRoleAsync(identityUser, "cadastrado");
-                var code = _userManager.GenerateEmailConfirmationTokenAsync(identityUser).Result;
-                var encodedCode = HttpUtility.UrlEncode(code);
-                return Result.Ok().WithSuccess(encodedCode);
+                var status = AtribuirRole(identityUser, "cadastrado");
+
+                if (status.Result.Succeeded) {
+                    var code = _userManager.GenerateEmailConfirmationTokenAsync(identityUser).Result;
+                    var encodedCode = HttpUtility.UrlEncode(code);
+                    return Result.Ok().WithSuccess(encodedCode);
+                }                
             }
             return Result.Fail("Falha ao cadastrar novo usuário");
+        }
+
+        public Task<IdentityResult> AtribuirRole(IdentityUser<int> user, string role) {
+            return _userManager.AddToRoleAsync(user, role);
         }
     }
 }

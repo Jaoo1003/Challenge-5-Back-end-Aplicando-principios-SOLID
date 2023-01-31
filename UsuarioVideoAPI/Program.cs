@@ -14,9 +14,10 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddTransient<IAdminUserService, DefaultAdminService>();
+builder.Services.AddTransient<IAdminUserService, DefaultAdminUserService>();
 builder.Services.AddTransient<IUsuario, UsuarioEfCore>();
 builder.Services.AddTransient<ILogin, LoginEfCore>();
+builder.Services.AddScoped<TokenService, TokenService>();
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 builder.Services.AddDbContext<UserDbContext>(opt => opt.UseMySql(builder.Configuration.GetConnectionString("UsuarioConnection"), new MySqlServerVersion(new Version(8, 0))));

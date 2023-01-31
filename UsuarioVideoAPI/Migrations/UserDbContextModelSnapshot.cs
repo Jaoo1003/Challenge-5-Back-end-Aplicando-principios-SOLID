@@ -49,7 +49,7 @@ namespace UsuarioVideoAPI.Migrations
                         new
                         {
                             Id = 1,
-                            ConcurrencyStamp = "f883b18b-7c73-445a-8513-782fd8f20d48",
+                            ConcurrencyStamp = "33d535d6-7cb8-443a-9499-fc576fad9be4",
                             Name = "cadastrado",
                             NormalizedName = "CADASTRADO"
                         });

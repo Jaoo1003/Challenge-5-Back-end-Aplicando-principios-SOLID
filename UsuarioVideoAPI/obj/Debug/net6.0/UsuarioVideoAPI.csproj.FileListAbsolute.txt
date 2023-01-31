@@ -44,3 +44,8 @@ C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\UsuarioVideo
 C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\UsuarioVideoAPI\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
 C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\UsuarioVideoAPI\bin\Debug\net6.0\Humanizer.dll
 C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\UsuarioVideoAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\UsuarioVideoAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\UsuarioVideoAPI\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\UsuarioVideoAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\UsuarioVideoAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 5 .NET\UsuarioVideoAPI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
